@@ -11,6 +11,6 @@
 
 <style scoped lang="scss">
 .example{
-  @apply flex justify-center items-center w-200px h-100px bg-dark-200 text-white hover:(bg-light-300 text-dark-50)
+  @apply flex justify-center items-center w-200px h-100px bg-dark-200 text-white hover:(bg-light-300 text-dark-50);
 }
 </style>
