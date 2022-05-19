@@ -1,10 +1,16 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="../assets/logo.png">
+  <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <div class="example">
+    css example
+  </div>
 </template>
+
+<style scoped lang="scss">
+.example{
+  @apply flex justify-center items-center w-200px h-100px bg-dark-200 text-white hover:(bg-light-300 text-dark-50)
+}
+</style>
