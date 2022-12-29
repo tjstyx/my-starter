@@ -1,3 +1,5 @@
 # my-starter
 
-## Vue & React
+- [x] `Vue` 
+
+- [ ] `React`
